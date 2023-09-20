@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  max-width: 100wh;
+  min-height: 100vh;
+  background-color: #070724;
+  color: #ffffff;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-container nav{
+  display: flex;
+  align-items: center;
+  gap: 50rem;
+}
+.header{
+  color: #ffffff;
+  margin: 20px;
+}
+.planets-content{
+  display: flex;
+  gap: 1.5rem;
+}
+.nav-container ul{
+  display: flex;
+  gap: 1.5rem;
+  margin: 20px;
+}
+.line-cont{
+  background-color: #ffffff75;
+  width: 100%;
+  height: 1px;
+  margin-bottom: 100px;
+}
+.earth-logo{
+  position: relative;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.pin{
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 150px;
+}
+.content{
+  max-width: 350px;
+  margin-left: 100px;
+}
+.content p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.tab-container{
+  margin-top: 20px;
+}
+.tab{
+  margin-top: 10px;
+  outline: 1px solid #ffffff75;
+  cursor: pointer;
+  padding: 10px;
+}
+.tab:hover{
+  background-color: #d8d8d875;
+}
+.tab.active{
+  background-color: #6D2ED5;
+}
+.bottom-info{
+  display: flex;
+  gap: 2.5rem;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.info{
+  outline: 1px solid #ffffff75;
+  padding: 10px;
+  width: 150px;
+}
